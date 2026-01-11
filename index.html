@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Diep.io Clone</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <canvas id="game"></canvas>
-  <div id="ui"></div>
-
-  <script type="module" src="js/main.js"></script>
+<html>
+<body style="background:black;color:white">
+<h1>Pages works</h1>
+<canvas id="game"></canvas>
+<script>
+  const c = document.getElementById("game");
+  c.width = 300;
+  c.height = 300;
+  const ctx = c.getContext("2d");
+  ctx.fillStyle = "red";
+  ctx.fillRect(50,50,200,200);
+</script>
 </body>
 </html>
