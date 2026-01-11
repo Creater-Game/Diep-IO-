@@ -1,0 +1,17 @@
+{
+  "square": {
+    "xp": 10,
+    "radius": 15,
+    "color": "#f2e14c"
+  },
+  "triangle": {
+    "xp": 20,
+    "radius": 18,
+    "color": "#ff8c42"
+  },
+  "pentagon": {
+    "xp": 50,
+    "radius": 25,
+    "color": "#7687ff"
+  }
+}
