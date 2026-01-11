@@ -1,0 +1,15 @@
+{
+  "basic": {
+    "barrels": 1,
+    "damage": 1,
+    "speed": 1
+  },
+  "twin": {
+    "barrels": 2,
+    "spread": 0.2
+  },
+  "sniper": {
+    "range": 2,
+    "bulletSpeed": 1.5
+  }
+}
